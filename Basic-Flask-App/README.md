@@ -49,7 +49,7 @@ Therefore, we have:
   app = Flask(__name__)
 ```
 
-Now 'app' is our Flask object. Using 'app' we can define routes for our web application. A route defines what URLs our web application will respond to. For instance if can create a route /hello then our web application will do something when url localhost:5000/hello is hit. Let's create the /hello route with the following line of code:
+Now 'app' is our Flask object. Using 'app' we can define routes for our web application. A route defines what URLs our web application will respond to. For instance if can create a route /hello then our web application will do something when URL localhost:5000/hello is hit. Let's create the /hello route with the following line of code:
 
 ```python
   @app.route('/hello')
