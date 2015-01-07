@@ -97,4 +97,4 @@ If successful you should see the following output in the terminal:
   * Restarting with reloader
 ```
 
-Now if we go to a browser and enter  URL http://localhost/hello, it should come back with 'Hello World!'.
+Now if we go to a browser and enter  URL http://localhost:5000/hello, it should come back with 'Hello World!'.
