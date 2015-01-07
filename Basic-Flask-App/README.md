@@ -4,11 +4,12 @@ This tutorial covers creating a basic Flask application using Python 3.4. [Flask
 
 ###Installing Python 3.4
 
-If you need to install python 3.4 then go to this website https://www.python.org/downloads/ and follow the instructions.
+If you need to install python 3.4 then go to this website https://www.python.org/downloads/ and follow the instructions.  In Windows you may need to add Python and Pip (see below) to the 'path' environment variable.
 
 ###Installing Flask Using Pip
 
-[Pip](https://pypi.python.org/pypi/pip) is a package manager for Python, and it comes pre-installed with Python 3.4. You can use Pip to install Flask with the following command:
+[Pip](https://pypi.python.org/pypi/pip) is a package manager for Python, and it comes pre-installed with Python 3.4.
+You can use Pip to install Flask with the following command:
 
 ```shell
   pip3 install flask
@@ -41,6 +42,8 @@ The next thing we need to do is create an instance of the Flask class. We will c
 ```python
   app = Flask(__name__)
 ```
+
+In Windows use notepad to write this.  If you save, change the file type to all files and save with the extension .py.
 
 Therefore, we have:
 
