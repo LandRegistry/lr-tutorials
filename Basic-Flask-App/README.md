@@ -17,7 +17,9 @@ You can use Pip to install Flask with the following command:
 
 ###Writing your first Flask application
 
-First off, let's create a folder for our application. Let's call it Flask-App. In linux terminal:
+First off, let's create a folder for our application. Let's call it Flask-App. Within a directory called
+lr-tutorials, create a directory called Flask-App.  
+In a linux terminal you can do this with:
 
 ```shell
   mkdir Flask-App
