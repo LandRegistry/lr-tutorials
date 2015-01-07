@@ -14,6 +14,8 @@ The website explains in more detail what we're doing below - but with different 
 ###Install vagrant: https://docs.vagrantup.com/v2/installation/
 ###And install virtualbox: https://www.virtualbox.org/  
 
+You can download these at the same time to save time.
+
 ##Project setup
 
 The vagrant documentation explains this very well.  The instructions below detail how to 
