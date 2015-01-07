@@ -56,7 +56,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 ```
 
 ```shell
-config.vm.box = "ubuntu/trusty64"
+config.vm.box = "landregistry/ubuntu"
 ```
 
 You will be able to start, access and stop the vm now.  See the quick reference guide below.
