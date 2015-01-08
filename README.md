@@ -19,6 +19,7 @@ http://stackoverflow.com/questions/22770105/pip-not-recognised-command-when-inst
 ###you won't have all the tools installed.  Please install these tools for Mac OSX:
 
 Install pip by typing this in the terminal:
+
 sudo easy_install pip
 
 Then download and install these things for mac osx:
