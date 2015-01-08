@@ -22,6 +22,8 @@ lr-tutorials, create a directory called Flask-App.
 In a linux terminal you can do this with:
 
 ```shell
+  mkdir lr-tutorials
+  cd lr-tutorials
   mkdir Flask-App
 ```
 
