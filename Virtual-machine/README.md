@@ -18,7 +18,7 @@ You can download these at the same time to save time.
 
 ##Project setup
 
-The vagrant documentation explains this very well.  The instructions below detail how to 
+The vagrant documentation explains this very well.  The instructions below detail how to
 setup vagrant to run the Basic Flask App.  If you haven't see the basic flask app - go here:
 
 https://github.com/LandRegistry/lr-tutorials/tree/master/Basic-Flask-App
@@ -30,17 +30,17 @@ vagrant init
 ```
 
 Which will create a Vagrantfile. This file marks the root directory of your project and describes
-the kind of machine and resources you need to run your project, as well as what software to install 
+the kind of machine and resources you need to run your project, as well as what software to install
 and how you want to access it.
 
 ###Add a box
 Which means telling vagrant what kind of virtual machine you want.  You can download many different
-kinds of boxes, like Ubuntu and CentOS flavours of linux.  But we are going to use a Land Registry 
+kinds of boxes, like Ubuntu and CentOS flavours of linux.  But we are going to use a Land Registry
 ubuntu image.
 
 Update Vagrantfile so that this part:
 
- 
+
 ```shell
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 ```
@@ -68,10 +68,10 @@ The virtual machine and your PC can share files .  So if you type this in your v
 ls /vagrant
 ```
 
-Then you will see the contents of lr-tutorials. If you make changes to the contents of 
+Then you will see the contents of lr-tutorials. If you make changes to the contents of
 lr-tutorials, the changes will be reflected in the vagrant folder of your vm.  And visa versa.
 
-###Provsioning the virtual machine
+###Provisioning the virtual machine
 Do this to automate tasks.  For instance the basic flask app needs flask installed.  the provisioning script
 can do this automatically.  Create a new file called provision.sh alongside your Vagrantfile.  Put this in it:
 
@@ -83,7 +83,7 @@ can do this automatically.  Create a new file called provision.sh alongside your
 pip install flask
 ```
 
-The first line is a 'shebang' that says "run in the bash shell".  The next line tells pip 
+The first line is a 'shebang' that says "run in the bash shell".  The next line tells pip
 (a python package manager) to install flask.  
 
 Next tell vagrant to run the provision script by changing adding this line to the Vagrantfile:
@@ -139,5 +139,3 @@ To reload a Vagrantfile
 ```shell
 vagrant reload
 ```
-
-

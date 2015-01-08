@@ -1,4 +1,8 @@
-#Create a github account
+#Git and Github Tutorial
+
+This tutorial gives basic instructions for creating a repository on Github then initialising and pushing some code to that repository. It will also cover changing that code locally and pushing those changes to Github.
+
+###Create a github account
 
 Use a name that something to your colleagues.  Preferably a nice avatar too.
 
@@ -15,8 +19,10 @@ https://help.github.com/articles/generating-ssh-keys/
 - Once the repository is created, follow the instructions on github to "…or create a new repository on the command line"
 - View your code in github
 
-###Create a new branch
+###Creating a new branch and changing the code
+
+We are going to change the code, but do this on a branch of the code.  
+You can create a branch on github itself by going to the main page for a repo
+and clicking the branch drop do
 
 ###Pull requests
-
-
