@@ -4,7 +4,7 @@ This tutorial gives basic instructions for creating a repository on Github then 
 
 ###Create a github account
 
-Use a name that something to your colleagues.  Preferably a nice avatar too.
+Use a name that means something to your colleagues.  Preferably a nice avatar too.
 
 ###Authenticate your computer with your github account.
 
@@ -23,6 +23,6 @@ https://help.github.com/articles/generating-ssh-keys/
 
 We are going to change the code, but do this on a branch of the code.  
 You can create a branch on github itself by going to the main page for a repo
-and clicking the branch drop do
+and clicking the branch drop down.
 
 ###Pull requests
