@@ -15,6 +15,10 @@ Git: http://www.git-tower.com/blog/git-cheat-sheet-detail/
 #If your using your own Mac...
 ###you won't have all the tools installed.  Please install these tools for Mac OSX:
 
+Atom:
+https://atom.io/
+This is text editor suitable for coding.
+
 Install pip by typing this in the terminal:
 
 sudo easy_install pip
