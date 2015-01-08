@@ -101,7 +101,7 @@ your host pc.  For that you need to forward the port.
 Add this to the Vagrantfile:
 
 ```shell
-config.vm.network "forwarded_port", guest: 5000, host: 5000
+config.vm.network "forwarded_port", guest: 5000, host: 5555
 ```
 
 There is a port forwarding section in the Vagrantfile you can use, or you can add it below the line you
