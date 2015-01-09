@@ -18,7 +18,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   #DO NOT set this and port forwarding. use one or the other
-  config.vm.network "private_network", ip: "192.168.50.9"
+  #config.vm.network "private_network", ip: "192.168.50.9"
   #Practically this is less useful than port forwarding, because you can't do
   #this on the dito owing to permissions.  In addition it only works locally
   #to the PC running the VM.  With Port Forwarding you can hit a VM service
