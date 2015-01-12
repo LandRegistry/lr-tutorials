@@ -44,5 +44,8 @@ http://stackoverflow.com/questions/6318156/adding-python-path-on-windows-7
 ###Adding pip to the Windows path:
 http://stackoverflow.com/questions/22770105/pip-not-recognised-command-when-installing-packages
 
+#exec ssh-agent nash  
+Use this if you can't add ssh keys to the agent in the github help
+
 
 
